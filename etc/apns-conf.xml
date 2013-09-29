@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<apns version="7">
+<!-- Row [1257]================================== -->
+
+    <apn carrier="CMNET"
+        mcc="460"
+        mnc="00"
+        type="default"
+        apn="cmnet"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+
+<!-- Row [1258]================================== -->
+
+    <apn carrier="WAP over GPRS"
+        mcc="460"
+        mnc="00"
+        type="default"
+        apn="cmwap"
+        user="*"
+        password="*"
+        proxy="10.0.0.172"
+        port="80"
+        server="http://wap.monternet.com"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+
+<!-- Row [1259]================================== -->
+
+    <apn carrier="CMCC MMS GPRS"
+        mcc="460"
+        mnc="00"
+        type="mms"
+        apn="cmwap"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="10.0.0.172"
+        mmsport="80"
+        mmsc="http://mmsc.monternet.com"
+    />
+
+
+<!-- Row [1260]================================== -->
+
+    <apn carrier="联通 3Gnet"
+        mcc="460"
+        mnc="01"
+        type="default,supl"
+        apn="3gnet"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+
+<!-- Row [1261]================================== -->
+
+    <apn carrier="联通 WAP"
+        mcc="460"
+        mnc="01"
+        type="default"
+        apn="3gwap"
+        user="*"
+        password="*"
+        proxy="10.0.0.172"
+        port="80"
+        server="*"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+
+
+
+<!-- Row [1262]================================== -->
+
+    <apn carrier="联通彩信"
+        mcc="460"
+        mnc="01"
+        type="mms"
+        apn="3gwap"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="10.0.0.172"
+        mmsport="80"
+        mmsc="http://mmsc.myuni.com.cn"
+    />
+
+    <apn carrier="联通 HIPRI"
+        mcc="460"
+        mnc="01"
+        type="hipri"
+        apn="internet"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+<!-- Row [1263]================================== -->
+
+    <apn carrier="CMNET"
+        mcc="460"
+        mnc="02"
+        type="default"
+        apn="cmnet"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+
+<!-- Row [1264]================================== -->
+
+    <apn carrier="WAP over GPRS"
+        mcc="460"
+        mnc="02"
+        type="default"
+        apn="cmwap"
+        user="*"
+        password="*"
+        proxy="10.0.0.172"
+        port="80"
+        server="http://wap.monternet.com"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+
+<!-- Row [1265]================================== -->
+
+    <apn carrier="CMCC MMS GPRS"
+        mcc="460"
+        mnc="02"
+        type="mms"
+        apn="cmwap"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="10.0.0.172"
+        mmsport="80"
+        mmsc="http://mmsc.monternet.com"
+    />
+
+<!-- Row [1266]================================== -->
+
+    <apn carrier="FET Internet"
+        mcc="466"
+        mnc="01"
+        type="default"
+        apn="internet"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="http://www.fetnet.net"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+
+<!-- Row [1267]================================== -->
+
+    <apn carrier="FET MMS"
+        mcc="466"
+        mnc="01"
+        type="mms"
+        apn="fetnet01"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="210.241.199.199"
+        mmsport="9201"
+        mmsc="http://mms"
+    />
+
+<!-- Row [1268]================================== -->
+
+    <apn carrier="FET Prepaid"
+        mcc="466"
+        mnc="01"
+        type="default"
+        apn="f3prepaid"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="210.241.199.199"
+        mmsport="9201"
+        mmsc="http://mms"
+    />
+
+<!-- Row [1269]================================== -->
+
+    <apn carrier="KGT Internet"
+        mcc="466"
+        mnc="88"
+        type="default"
+        apn="internet"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+
+<!-- Row [1270]================================== -->
+
+    <apn carrier="KGT MMS"
+        mcc="466"
+        mnc="88"
+        type="mms"
+        apn="kgtmms"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="172.28.33.5"
+        mmsport="8080"
+        mmsc="http://mms.kgtmms.net.tw/mms/wapenc"
+    />
+<!-- Row [1271]================================== -->
+
+    <apn carrier="VIBO-internet"
+        mcc="466"
+        mnc="89"
+        type="default"
+        apn="internet"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+
+<!-- Row [1272]================================== -->
+
+    <apn carrier="VIBO-vibo"
+        mcc="466"
+        mnc="89"
+        type="default"
+        apn="vibo"
+        user="*"
+        password="*"
+        proxy="172.24.128.36"
+        port="8080"
+        server="http://vmall.vibo.net.tw"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+
+<!-- Row [1273]================================== -->
+
+    <apn carrier="VIBO MMS"
+        mcc="466"
+        mnc="89"
+        type="mms"
+        apn="vibo"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="172.24.128.36"
+        mmsport="8080"
+        mmsc="http://mms/"
+    />
+
+<!-- Row [1274]================================== -->
+
+    <apn carrier="VIBOONE"
+        mcc="466"
+        mnc="89"
+        type="default"
+        apn="viboone"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+
+<!-- Row [1275]================================== -->
+
+    <apn carrier="CHT Internet"
+        mcc="466"
+        mnc="92"
+        type="default"
+        apn="internet"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+
+<!-- Row [1276]================================== -->
+
+    <apn carrier="CHT emome"
+        mcc="466"
+        mnc="92"
+        type="default"
+        apn="emome"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+
+<!-- Row [1277]================================== -->
+
+    <apn carrier="CHT MMS"
+        mcc="466"
+        mnc="92"
+        type="mms"
+        apn="emome"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="10.1.1.1"
+        mmsport="8080"
+        mmsc="http://mms.emome.net:8002"
+    />
+
+<!-- Row [1278]================================== -->
+
+    <apn carrier="TWM match"
+        mcc="466"
+        mnc="93"
+        type="default"
+        apn="twm"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+
+<!-- Row [1279]================================== -->
+
+    <apn carrier="TWM Internet"
+        mcc="466"
+        mnc="93"
+        type="default"
+        apn="internet"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+
+<!-- Row [1280]================================== -->
+
+    <apn carrier="TWM MMS"
+        mcc="466"
+        mnc="93"
+        type="mms"
+        apn="mms"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="10.1.1.2"
+        mmsport="80"
+        mmsc="http://mms.catch.net.tw/"
+    />
+
+<!-- Row [1282]================================== -->
+
+    <apn carrier="TWM Internet"
+        mcc="466"
+        mnc="97"
+        type="default"
+        apn="internet"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+
+<!-- Row [1281]================================== -->
+
+    <apn carrier="TWM match"
+        mcc="466"
+        mnc="97"
+        type="default"
+        apn="twm"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+
+<!-- Row [1283]================================== -->
+
+    <apn carrier="TWM MMS"
+        mcc="466"
+        mnc="97"
+        type="mms"
+        apn="mms"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="10.1.1.2"
+        mmsport="80"
+        mmsc="http://mms.catch.net.tw/"
+    />
+
+<!-- Row [1284]================================== -->
+
+    <apn carrier="TWM match"
+        mcc="466"
+        mnc="99"
+        type="default"
+        apn="twm"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+
+<!-- Row [1285]================================== -->
+
+    <apn carrier="TWM Internet"
+        mcc="466"
+        mnc="99"
+        type="default"
+        apn="internet"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="*"
+        mmsport="*"
+        mmsc="*"
+    />
+
+<!-- Row [1286]================================== -->
+
+    <apn carrier="TW Mobile MMS"
+        mcc="466"
+        mnc="99"
+        type="mms"
+        apn="mms"
+        user="*"
+        password="*"
+        proxy="*"
+        port="*"
+        server="*"
+        mmsproxy="10.1.1.2"
+        mmsport="80"
+        mmsc="http://mms.catch.net.tw/"
+    />
+
+<!-- Row [1287]================================== -->
+</apns>
+
